@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: fa33623839fc30748ac14bf8628cac45
+guid: 7c5044bbfa3bae54196b28dca3529e39
+timeCreated: 1605444920
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/denoiserOIDN.exe
+  uploadId: 799174
