@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: d00bb9d80ea3d344e90526bf18c52c47
+guid: 1b13d05f289379f4da8425cad71c1ff2
+timeCreated: 1757418908
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 164462
+  packageName: Bakery Real-Time Preview
+  packageVersion: 1.197
+  assetPath: Assets/Editor/x64/Bakery/lmPreviewTranslucentAO.ptx
+  uploadId: 796004

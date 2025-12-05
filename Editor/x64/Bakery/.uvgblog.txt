@@ -1,3 +1,356 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4301183733ddb30088a5dbd2967a2a9417dd0d0f10725f6685c54ee1bab2fd84
-size 23655
+2025-10-25
+Rendering UV GBuffer for LMGroup_GEOMETRY 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LMGroup_Geometry_far 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Deufl\AppData\Local\Temp\frender" "uvpos_LMGroup_GEOMETRY.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\Deufl\AppData\Local\Temp\frender" "uvpos_LMGroup_Geometry_far.lz4" 2 0 1 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\Deufl\AppData\Local\Temp\frender" "PointBatch_0_0_13" 4 0 0 batchpointlight_0_0_13.bin
+Running ftraceRTX sky "C:\Users\Deufl\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\Deufl\AppData\Local\Temp\frender" "light_2_0" 12 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Deufl\AppData\Local\Temp\frender" "PointBatch_1_0_13" 4 0 1 batchpointlight_1_0_13.bin
+Running ftraceRTX sky "C:\Users\Deufl\AppData\Local\Temp\frender" "light_1_1" 4 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\Deufl\AppData\Local\Temp\frender" "light_2_1" 12 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_diffuse" 4 16 0 "gi_LMGroup_GEOMETRY0.bin" "LMGroup_GEOMETRY_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_diffuse" 4 16 1 "gi_LMGroup_Geometry_far0.bin" "LMGroup_Geometry_far_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_diffuse" 4 16 0 "gi_LMGroup_GEOMETRY1.bin" "LMGroup_GEOMETRY_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_diffuse" 4 16 1 "gi_LMGroup_Geometry_far1.bin" "LMGroup_Geometry_far_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_diffuse" 4 16 0 "gi_LMGroup_GEOMETRY2.bin" "LMGroup_GEOMETRY_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_diffuse" 4 16 1 "gi_LMGroup_Geometry_far2.bin" "LMGroup_Geometry_far_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_diffuse" 4 16 0 "gi_LMGroup_GEOMETRY3.bin" "LMGroup_GEOMETRY_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_diffuse" 4 16 1 "gi_LMGroup_Geometry_far3.bin" "LMGroup_Geometry_far_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_final" 20 16 0 "gi_LMGroup_GEOMETRY4.bin" "LMGroup_GEOMETRY_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_final" 20 16 1 "gi_LMGroup_Geometry_far4.bin" "LMGroup_Geometry_far_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running denoiserOIDN c "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_GEOMETRY_final_HDR.lz4" "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_GEOMETRY_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Deufl\AppData\Local\Temp\frender" "0" "LMGroup_GEOMETRY_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 261352, left 1260
+Collecting edges...
+3780 edges
+Sorting...
+Finding seams...X
+0 seams
+Running denoiserOIDN c "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_Geometry_far_final_HDR.lz4" "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_Geometry_far_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Deufl\AppData\Local\Temp\frender" "1" "LMGroup_Geometry_far_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 261352, left 64078
+Collecting edges...
+124251 edges
+Sorting...
+Finding seams...X
+3261 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4060 Laptop GPU
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Running combineMasks "D:/Personal/Arena/AR/Assets/Scenes/GamePlayCity/LMGroup_GEOMETRY_mask.tga" "C:\Users\Deufl\AppData\Local\Temp\frender/masks_0.bin" "C:\Users\Deufl\AppData\Local\Temp\frender/"
+Channel 0
+Loading light_2_0_Mask.lz4
+Channel 1
+Channel 2
+Channel 3
+Done
+Running combineMasks "D:/Personal/Arena/AR/Assets/Scenes/GamePlayCity/LMGroup_Geometry_far_mask.tga" "C:\Users\Deufl\AppData\Local\Temp\frender/masks_1.bin" "C:\Users\Deufl\AppData\Local\Temp\frender/"
+Channel 0
+Loading light_2_1_Mask.lz4
+Channel 1
+Channel 2
+Channel 3
+Done
+Running halffloat2hdr "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_GEOMETRY_final_HDR.lz4" "D:/Personal/Arena/AR/Assets/Scenes/GamePlayCity/LMGroup_GEOMETRY_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_Geometry_far_final_HDR.lz4" "D:/Personal/Arena/AR/Assets/Scenes/GamePlayCity/LMGroup_Geometry_far_final.hdr" 1024
+Initializing D3D...
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for LMGroup_GEOMETRY 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LMGroup_Geometry_far 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Deufl\AppData\Local\Temp\frender" "uvpos_LMGroup_GEOMETRY.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\Deufl\AppData\Local\Temp\frender" "uvpos_LMGroup_Geometry_far.lz4" 2 0 1 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\Deufl\AppData\Local\Temp\frender" "PointBatch_0_0_13" 4 0 0 batchpointlight_0_0_13.bin
+Running ftraceRTX sky "C:\Users\Deufl\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\Deufl\AppData\Local\Temp\frender" "light_2_0" 12 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Deufl\AppData\Local\Temp\frender" "PointBatch_1_0_13" 4 0 1 batchpointlight_1_0_13.bin
+Running ftraceRTX sky "C:\Users\Deufl\AppData\Local\Temp\frender" "light_1_1" 4 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\Deufl\AppData\Local\Temp\frender" "light_2_1" 12 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_diffuse" 4 16 0 "gi_LMGroup_GEOMETRY0.bin" "LMGroup_GEOMETRY_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_diffuse" 4 16 1 "gi_LMGroup_Geometry_far0.bin" "LMGroup_Geometry_far_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_diffuse" 4 16 0 "gi_LMGroup_GEOMETRY1.bin" "LMGroup_GEOMETRY_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_diffuse" 4 16 1 "gi_LMGroup_Geometry_far1.bin" "LMGroup_Geometry_far_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_diffuse" 4 16 0 "gi_LMGroup_GEOMETRY2.bin" "LMGroup_GEOMETRY_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_diffuse" 4 16 1 "gi_LMGroup_Geometry_far2.bin" "LMGroup_Geometry_far_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_diffuse" 4 16 0 "gi_LMGroup_GEOMETRY3.bin" "LMGroup_GEOMETRY_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_diffuse" 4 16 1 "gi_LMGroup_Geometry_far3.bin" "LMGroup_Geometry_far_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_final" 20 16 0 "gi_LMGroup_GEOMETRY4.bin" "LMGroup_GEOMETRY_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_final" 20 16 1 "gi_LMGroup_Geometry_far4.bin" "LMGroup_Geometry_far_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running denoiserOIDN c "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_GEOMETRY_final_HDR.lz4" "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_GEOMETRY_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Deufl\AppData\Local\Temp\frender" "0" "LMGroup_GEOMETRY_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 261360, left 1262
+Collecting edges...
+3786 edges
+Sorting...
+Finding seams...X
+0 seams
+Running denoiserOIDN c "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_Geometry_far_final_HDR.lz4" "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_Geometry_far_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Deufl\AppData\Local\Temp\frender" "1" "LMGroup_Geometry_far_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 261360, left 64078
+Collecting edges...
+124251 edges
+Sorting...
+Finding seams...X
+3261 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4060 Laptop GPU
+Running combineMasks "D:/Personal/Arena/AR/Assets/Scenes/GamePlayCity/LMGroup_GEOMETRY_mask.tga" "C:\Users\Deufl\AppData\Local\Temp\frender/masks_0.bin" "C:\Users\Deufl\AppData\Local\Temp\frender/"
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Channel 0
+Loading light_2_0_Mask.lz4
+Channel 1
+Channel 2
+Channel 3
+Done
+Running combineMasks "D:/Personal/Arena/AR/Assets/Scenes/GamePlayCity/LMGroup_Geometry_far_mask.tga" "C:\Users\Deufl\AppData\Local\Temp\frender/masks_1.bin" "C:\Users\Deufl\AppData\Local\Temp\frender/"
+Channel 0
+Loading light_2_1_Mask.lz4
+Channel 1
+Channel 2
+Channel 3
+Done
+Running halffloat2hdr "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_GEOMETRY_final_HDR.lz4" "D:/Personal/Arena/AR/Assets/Scenes/GamePlayCity/LMGroup_GEOMETRY_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_Geometry_far_final_HDR.lz4" "D:/Personal/Arena/AR/Assets/Scenes/GamePlayCity/LMGroup_Geometry_far_final.hdr" 1024
+Initializing D3D...
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\Deufl\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for LMGroup_GEOMETRY 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LMGroup_Geometry_far 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Deufl\AppData\Local\Temp\frender" "uvpos_LMGroup_GEOMETRY.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\Deufl\AppData\Local\Temp\frender" "uvpos_LMGroup_Geometry_far.lz4" 2 0 1 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\Deufl\AppData\Local\Temp\frender" "PointBatch_0_0_13" 4 0 0 batchpointlight_0_0_13.bin
+Running ftraceRTX sky "C:\Users\Deufl\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\Deufl\AppData\Local\Temp\frender" "light_2_0" 12 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Deufl\AppData\Local\Temp\frender" "PointBatch_1_0_13" 4 0 1 batchpointlight_1_0_13.bin
+Running ftraceRTX sky "C:\Users\Deufl\AppData\Local\Temp\frender" "light_1_1" 4 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\Deufl\AppData\Local\Temp\frender" "light_2_1" 12 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_diffuse" 4 16 0 "gi_LMGroup_GEOMETRY0.bin" "LMGroup_GEOMETRY_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_diffuse" 4 16 1 "gi_LMGroup_Geometry_far0.bin" "LMGroup_Geometry_far_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_diffuse" 4 16 0 "gi_LMGroup_GEOMETRY1.bin" "LMGroup_GEOMETRY_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_diffuse" 4 16 1 "gi_LMGroup_Geometry_far1.bin" "LMGroup_Geometry_far_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_diffuse" 4 16 0 "gi_LMGroup_GEOMETRY2.bin" "LMGroup_GEOMETRY_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_diffuse" 4 16 1 "gi_LMGroup_Geometry_far2.bin" "LMGroup_Geometry_far_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_diffuse" 4 16 0 "gi_LMGroup_GEOMETRY3.bin" "LMGroup_GEOMETRY_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_diffuse" 4 16 1 "gi_LMGroup_Geometry_far3.bin" "LMGroup_Geometry_far_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_final" 20 16 0 "gi_LMGroup_GEOMETRY4.bin" "LMGroup_GEOMETRY_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_final" 20 16 1 "gi_LMGroup_Geometry_far4.bin" "LMGroup_Geometry_far_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running denoiserOIDN c "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_GEOMETRY_final_HDR.lz4" "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_GEOMETRY_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Deufl\AppData\Local\Temp\frender" "0" "LMGroup_GEOMETRY_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 261360, left 1262
+Collecting edges...
+3786 edges
+Sorting...
+Finding seams...X
+0 seams
+Running denoiserOIDN c "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_Geometry_far_final_HDR.lz4" "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_Geometry_far_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Deufl\AppData\Local\Temp\frender" "1" "LMGroup_Geometry_far_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 261360, left 64078
+Collecting edges...
+124251 edges
+Sorting...
+Finding seams...X
+3261 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4060 Laptop GPU
+Running combineMasks "D:/Personal/Arena/AR/Assets/Scenes/GamePlayCity/LMGroup_GEOMETRY_mask.tga" "C:\Users\Deufl\AppData\Local\Temp\frender/masks_0.bin" "C:\Users\Deufl\AppData\Local\Temp\frender/"
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Channel 0
+Loading light_2_0_Mask.lz4
+Channel 1
+Channel 2
+Channel 3
+Done
+Running combineMasks "D:/Personal/Arena/AR/Assets/Scenes/GamePlayCity/LMGroup_Geometry_far_mask.tga" "C:\Users\Deufl\AppData\Local\Temp\frender/masks_1.bin" "C:\Users\Deufl\AppData\Local\Temp\frender/"
+Channel 0
+Loading light_2_1_Mask.lz4
+Channel 1
+Channel 2
+Channel 3
+Done
+Running halffloat2hdr "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_GEOMETRY_final_HDR.lz4" "D:/Personal/Arena/AR/Assets/Scenes/GamePlayCity/LMGroup_GEOMETRY_final.hdr" 1024
+Initializing D3D...
+Done
+Running halffloat2hdr "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_Geometry_far_final_HDR.lz4" "D:/Personal/Arena/AR/Assets/Scenes/GamePlayCity/LMGroup_Geometry_far_final.hdr" 1024
+Initializing D3D...
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for LMGroup_GEOMETRY 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LMGroup_Geometry_far 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Deufl\AppData\Local\Temp\frender" "uvpos_LMGroup_GEOMETRY.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\Deufl\AppData\Local\Temp\frender" "uvpos_LMGroup_Geometry_far.lz4" 2 0 1 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\Deufl\AppData\Local\Temp\frender" "PointBatch_0_0_13" 4 0 0 batchpointlight_0_0_13.bin
+Running ftraceRTX sky "C:\Users\Deufl\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\Deufl\AppData\Local\Temp\frender" "light_2_0" 12 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\Deufl\AppData\Local\Temp\frender" "PointBatch_1_0_13" 4 0 1 batchpointlight_1_0_13.bin
+Running ftraceRTX sky "C:\Users\Deufl\AppData\Local\Temp\frender" "light_1_1" 4 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\Deufl\AppData\Local\Temp\frender" "light_2_1" 12 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_diffuse" 4 16 0 "gi_LMGroup_GEOMETRY0.bin" "LMGroup_GEOMETRY_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_diffuse" 4 16 1 "gi_LMGroup_Geometry_far0.bin" "LMGroup_Geometry_far_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_diffuse" 4 16 0 "gi_LMGroup_GEOMETRY1.bin" "LMGroup_GEOMETRY_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_diffuse" 4 16 1 "gi_LMGroup_Geometry_far1.bin" "LMGroup_Geometry_far_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_diffuse" 4 16 0 "gi_LMGroup_GEOMETRY2.bin" "LMGroup_GEOMETRY_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_diffuse" 4 16 1 "gi_LMGroup_Geometry_far2.bin" "LMGroup_Geometry_far_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_diffuse" 4 16 0 "gi_LMGroup_GEOMETRY3.bin" "LMGroup_GEOMETRY_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_diffuse" 4 16 1 "gi_LMGroup_Geometry_far3.bin" "LMGroup_Geometry_far_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_final" 20 16 0 "gi_LMGroup_GEOMETRY4.bin" "LMGroup_GEOMETRY_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_final" 20 16 1 "gi_LMGroup_Geometry_far4.bin" "LMGroup_Geometry_far_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_GEOMETRY_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\Deufl\AppData\Local\Temp\frender" "LMGroup_Geometry_far_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running denoiserOIDN c "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_GEOMETRY_final_HDR.lz4" "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_GEOMETRY_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\Deufl\AppData\Local\Temp\frender" "0" "LMGroup_GEOMETRY_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 261360, left 1262
+Collecting edges...
+3786 edges
+Sorting...
+Finding seams...X
+0 seams
+Running denoiserOIDN c "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_Geometry_far_final_HDR.lz4" "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_Geometry_far_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\Deufl\AppData\Local\Temp\frender" "1" "LMGroup_Geometry_far_final_HDR.lz4"
+Loading geometry...
+Tris filtered by LMID: was 261360, left 64078
+Collecting edges...
+124251 edges
+Sorting...
+Finding seams...X
+3261 seams
+Generating mesh...
+Initializing D3D...
+Selected device: NVIDIA GeForce RTX 4060 Laptop GPU
+Running combineMasks "D:/Personal/Arena/AR/Assets/Scenes/GamePlayCity/LMGroup_GEOMETRY_mask.tga" "C:\Users\Deufl\AppData\Local\Temp\frender/masks_0.bin" "C:\Users\Deufl\AppData\Local\Temp\frender/"
+Loaded vertex shader: seamfix.vso
+Loaded pixel shader: debugLines.pso
+Loading half-float lightmap...
+Rendering...
+Saving...
+Channel 0
+Loading light_2_0_Mask.lz4
+Channel 1
+Channel 2
+Channel 3
+Done
+Running combineMasks "D:/Personal/Arena/AR/Assets/Scenes/GamePlayCity/LMGroup_Geometry_far_mask.tga" "C:\Users\Deufl\AppData\Local\Temp\frender/masks_1.bin" "C:\Users\Deufl\AppData\Local\Temp\frender/"
+Channel 0
+Loading light_2_1_Mask.lz4
+Channel 1
+Channel 2
+Channel 3
+Done
+Running halffloat2hdr "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_GEOMETRY_final_HDR.lz4" "D:/Personal/Arena/AR/Assets/Scenes/GamePlayCity/LMGroup_GEOMETRY_final.hdr" 1024
+Running halffloat2hdr "C:\Users\Deufl\AppData\Local\Temp\frender/LMGroup_Geometry_far_final_HDR.lz4" "D:/Personal/Arena/AR/Assets/Scenes/GamePlayCity/LMGroup_Geometry_far_final.hdr" 1024
+Initializing D3D...
+Done
+Initializing D3D...
+Done
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file

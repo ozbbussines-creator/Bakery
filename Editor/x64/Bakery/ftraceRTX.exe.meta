@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: ac0144e65a5c3464987bb68a0f50880d
+guid: 31723c36feaba3a43a6a56c27e94b3bf
+timeCreated: 1651232185
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/ftraceRTX.exe
+  uploadId: 799174

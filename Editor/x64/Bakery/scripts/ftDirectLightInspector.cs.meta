@@ -1,2 +1,19 @@
 fileFormatVersion: 2
-guid: aa8be89a8ed76ba4199f06d044e1189a
+guid: 3a4eb21edcc395a419e2da3246fcbc15
+timeCreated: 1525273871
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/scripts/ftDirectLightInspector.cs
+  uploadId: 799174

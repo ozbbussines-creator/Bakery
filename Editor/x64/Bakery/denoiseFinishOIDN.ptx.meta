@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: a0669685b044ede4f8411b13ccc2ba1d
+guid: 37a0eda7ff3594543a94083548bef4fb
+timeCreated: 1589355275
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/denoiseFinishOIDN.ptx
+  uploadId: 799174

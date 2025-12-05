@@ -1,9 +1,16 @@
 fileFormatVersion: 2
-guid: b1a3c40dfc1b4554e8f62cd86d31868b
+guid: 20cf64477973022498e44b932e804288
+timeCreated: 1528974529
+licenseType: Store
 ShaderImporter:
-  externalObjects: {}
   defaultTextures: []
-  nonModifiableTextures: []
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Bakery/ftOverlapTest.shader
+  uploadId: 799174

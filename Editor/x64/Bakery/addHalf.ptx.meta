@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: e6a6a847048786b40a5f83627d26af05
+guid: e11fe20f1d7fb5c4e8a3e879f3aef436
+timeCreated: 1526161016
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/addHalf.ptx
+  uploadId: 799174

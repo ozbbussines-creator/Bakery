@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: af5ce48587bb4104484b29e4accbf56f
+guid: 3eeb7fb131fab904397234e1258187d6
+timeCreated: 1536238249
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/addHalfSeparateIndirect.ptx
+  uploadId: 799174

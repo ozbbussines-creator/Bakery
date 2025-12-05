@@ -1,9 +1,16 @@
 fileFormatVersion: 2
-guid: 004bb87ed4d76274297f61bed753e43b
+guid: 7262ab0355c641041a3c02740ab77512
+timeCreated: 1617743762
+licenseType: Store
 ShaderImporter:
-  externalObjects: {}
   defaultTextures: []
-  nonModifiableTextures: []
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Bakery/ftFarSphere.shader
+  uploadId: 799174

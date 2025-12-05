@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: 16f510a6cd0a0c74db5d2ff07ca361c8
+guid: f2e779fe6773c394bbabaf109bcc5ec1
+timeCreated: 1757427635
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 164462
+  packageName: Bakery Real-Time Preview
+  packageVersion: 1.197
+  assetPath: Assets/Editor/x64/Bakery/attrib_trimeshTexPreviewLOD64Translucent.ptx
+  uploadId: 796004

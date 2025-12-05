@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: aa4eb296b31146949859d9777f594a39
+guid: cf90142aabdb60f44bee0dc36653ce83
+timeCreated: 1532179904
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/uvfacenormal_point.gso
+  uploadId: 799174

@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: bd159d9ebd8de584cbca7905912bedda
+guid: 049a1401f47deb448b7543c6d4ed31d0
+timeCreated: 1540291414
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/lambert_sss.ptx
+  uploadId: 799174

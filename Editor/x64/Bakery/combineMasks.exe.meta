@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: f0394697c785d8942bc50a468bb2df20
+guid: 5aaaa91ab09a47640a15dcc03d1d0fac
+timeCreated: 1534844129
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/combineMasks.exe
+  uploadId: 799174

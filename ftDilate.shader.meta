@@ -1,9 +1,16 @@
 fileFormatVersion: 2
-guid: c1b1138becdaf7b47a55ac8fcf6f4abf
+guid: 966cd9feaf442e64b9154c34e29787e1
+timeCreated: 1595076643
+licenseType: Store
 ShaderImporter:
-  externalObjects: {}
   defaultTextures: []
-  nonModifiableTextures: []
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Bakery/ftDilate.shader
+  uploadId: 799174

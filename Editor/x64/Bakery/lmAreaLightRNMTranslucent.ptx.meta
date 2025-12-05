@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: 010b70a2c6937d94cb07aa1b8f155a51
+guid: 19fdb09521e4ac74c8ef1725b87d6b23
+timeCreated: 1757463066
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/lmAreaLightRNMTranslucent.ptx
+  uploadId: 799174

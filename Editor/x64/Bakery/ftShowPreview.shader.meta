@@ -1,9 +1,16 @@
 fileFormatVersion: 2
-guid: f3fa4f638289ce14e8883fe6ede28107
+guid: 91127bd76a1b64149bf2accf2e753138
+timeCreated: 1582963941
+licenseType: Store
 ShaderImporter:
-  externalObjects: {}
   defaultTextures: []
-  nonModifiableTextures: []
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 164462
+  packageName: Bakery Real-Time Preview
+  packageVersion: 1.197
+  assetPath: Assets/Editor/x64/Bakery/ftShowPreview.shader
+  uploadId: 796004

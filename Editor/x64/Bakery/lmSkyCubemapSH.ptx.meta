@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: 52c65edbfbca27b49802a8bdb2eb23de
+guid: a6c1a03eceb6e2743b2b8a4a10e9d536
+timeCreated: 1537562646
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/lmSkyCubemapSH.ptx
+  uploadId: 799174

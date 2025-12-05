@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ee6a03c8d9f9255fcab96450181c8b37e871e780fba039f27f96067bdf0aa85d
-size 708
+
+using UnityEditor;
+using UnityEngine;
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Runtime.InteropServices;
+
+[CustomEditor(typeof(ftLightmapsStorage))]
+public class ftLightmapsStorageInspector : UnityEditor.Editor
+{
+    static bool showDebug = false;
+
+    public override void OnInspectorGUI() {
+
+        EditorGUILayout.LabelField("This object stores Bakery lightmapping data");
+
+        if (showDebug)
+        {
+            if (GUILayout.Button("Hide debug info")) showDebug = false;
+            DrawDefaultInspector();
+        }
+        else
+        {
+            if (GUILayout.Button("Show debug info")) showDebug = true;
+        }
+    }
+}
+

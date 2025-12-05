@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: b31e86299799a0d41afc24c5093f1be1
+guid: e45ca17949caed34faf778ddae2f52ea
+timeCreated: 1757534994
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/lmTexAreaLightProbeSHTranslucent.ptx
+  uploadId: 799174

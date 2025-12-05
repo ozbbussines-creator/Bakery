@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: 1ed4abfd9378eeb40947417dbe493af3
+guid: e172d523e539132488e0cd7a91342957
+timeCreated: 1527161172
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/lambert_arealight.ptx
+  uploadId: 799174

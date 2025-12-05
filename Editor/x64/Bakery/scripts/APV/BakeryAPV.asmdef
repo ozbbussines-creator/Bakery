@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:960746da14277b2301d35719933361139c74e6cecedf820e60c2ed2fd6531bae
-size 756
+{
+    "name": "BakeryAPV",
+    "rootNamespace": "",
+    "references": [
+        "Unity.RenderPipelines.Core.Editor",
+        "Unity.RenderPipelines.Core.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.core",
+            "expression": "17.0.3",
+            "define": "CORE_RP_1703"
+        },
+        {
+            "name": "com.unity.collections",
+            "expression": "2.5.1",
+            "define": "NATIVE_ARRAYS"
+        }
+    ],
+    "noEngineReferences": false
+}

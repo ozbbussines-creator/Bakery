@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: 834b87ebb47e30c4390007f304f1d9b7
+guid: e52d39d80caa1bd42b96a0fc6cb6f8fc
+timeCreated: 1657225773
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/lmBatchPointLightRNMLegacy.ptx
+  uploadId: 799174

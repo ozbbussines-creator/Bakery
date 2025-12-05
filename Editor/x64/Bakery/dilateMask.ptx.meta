@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: 6fc7e9cbc110d9a41ac744e68ad9d3da
+guid: 47011ee837ad730478e644f3ec8b3953
+timeCreated: 1534426493
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/dilateMask.ptx
+  uploadId: 799174

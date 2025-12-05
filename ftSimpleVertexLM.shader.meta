@@ -1,9 +1,16 @@
 fileFormatVersion: 2
-guid: 7e7f349a54024f3478684995cf1e1a2c
+guid: 06b4ed554edfece43b570527a652d54e
+timeCreated: 1533631323
+licenseType: Store
 ShaderImporter:
-  externalObjects: {}
   defaultTextures: []
-  nonModifiableTextures: []
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Bakery/ftSimpleVertexLM.shader
+  uploadId: 799174

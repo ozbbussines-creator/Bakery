@@ -1,9 +1,16 @@
 fileFormatVersion: 2
-guid: f965524521a346245a99deb42ee3d7fa
+guid: b7f2eeb31adcaf143a9455602daf4853
+timeCreated: 1526836856
+licenseType: Store
 ShaderImporter:
-  externalObjects: {}
   defaultTextures: []
-  nonModifiableTextures: []
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Bakery/ftCubemap2StripExport.shader
+  uploadId: 799174

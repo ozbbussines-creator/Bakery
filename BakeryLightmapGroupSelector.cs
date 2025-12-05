@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f1a1689eadacd0841f814ba2b98f025ba1b0f4256b1ac075c3b0ee70c41757c7
-size 341
+using UnityEngine;
+
+[HelpURL("https://geom.io/bakery/wiki/index.php?title=Manual#Bakery_Lightmap_Group_Selector")]
+public class BakeryLightmapGroupSelector : MonoBehaviour
+{
+	public bool active = true;
+    public Object lmgroupAsset;
+    public bool instanceResolutionOverride = false;
+    public int instanceResolution = 256;
+}
+

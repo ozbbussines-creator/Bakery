@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: f998d72a060a4dd4ab4cc81abc0380cb
+guid: 149ff0b0fbbfc4d4d84fa34374ca61c7
+timeCreated: 1540294206
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/lmSSSSH.ptx
+  uploadId: 799174

@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: 22a0f773ec52d5140b607932114feb2a
+guid: 2acc01a02083e7b42a7faee4ea6706b6
+timeCreated: 1664041652
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/seamfix.vso
+  uploadId: 799174

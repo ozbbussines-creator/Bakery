@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: 3445099b6e93cf649895356663cf5f34
+guid: 8c23f48640ddf1b42a6c1e95ad1e871f
+timeCreated: 1582382878
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/postAddDir.ptx
+  uploadId: 799174

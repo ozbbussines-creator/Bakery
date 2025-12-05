@@ -1,9 +1,16 @@
 fileFormatVersion: 2
-guid: 9bf0f59c5b881184182b19ddd9bba771
+guid: afd35704a02e87b4b8636e6279c9ee32
+timeCreated: 1733585669
+licenseType: Store
 ShaderImporter:
-  externalObjects: {}
   defaultTextures: []
-  nonModifiableTextures: []
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Bakery/ftUnlitTerrainOpaque.shader
+  uploadId: 799174

@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: c5caf5f12d5b5ff4d83578e7a32d5b5d
+guid: 221f0729ddb8fc742a94d3f5ed9ae330
+timeCreated: 1526161016
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/dilateHalf.ptx
+  uploadId: 799174

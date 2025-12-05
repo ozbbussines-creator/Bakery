@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: 2e2391e45b4ed45469c449144f9a4c18
+guid: d3f9a8abe9eb2a54b8a434c3d58513b0
+timeCreated: 1526155640
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/quad.vso
+  uploadId: 799174

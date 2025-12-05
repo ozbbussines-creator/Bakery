@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: db9a6753e84d02c4eb685412aa46bb33
+guid: 2288f2be2d2aaad49a3ffede8289382d
+timeCreated: 1752402225
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/lmAreaLightProbeSHL2.ptx
+  uploadId: 799174

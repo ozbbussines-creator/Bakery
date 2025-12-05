@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: 13de3c93c45e07641b1bb8174aff9d38
+guid: ce74b43a64b692f4299df8ca55af6821
+timeCreated: 1537477670
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/lmSunRNM.ptx
+  uploadId: 799174

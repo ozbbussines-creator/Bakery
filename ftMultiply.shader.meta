@@ -1,9 +1,16 @@
 fileFormatVersion: 2
-guid: d0aeeb933fe8a5e48a88cc1df88bdeed
+guid: ca0c6046e6cde2d4391e91bbffb3e915
+timeCreated: 1534245696
+licenseType: Store
 ShaderImporter:
-  externalObjects: {}
   defaultTextures: []
-  nonModifiableTextures: []
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Bakery/ftMultiply.shader
+  uploadId: 799174

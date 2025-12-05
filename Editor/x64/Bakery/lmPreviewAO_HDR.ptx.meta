@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: f9505cd452170134981e7fdcc911fdea
+guid: 9aa05385361b14e489051cd73e654dfa
+timeCreated: 1636201500
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 164462
+  packageName: Bakery Real-Time Preview
+  packageVersion: 1.197
+  assetPath: Assets/Editor/x64/Bakery/lmPreviewAO_HDR.ptx
+  uploadId: 796004

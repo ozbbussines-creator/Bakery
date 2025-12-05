@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: 6be45fef74d7ea34f9b90d68d7637c36
+guid: fb9219364df58854694067585f158990
+timeCreated: 1605468045
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/hwtestdata/light_HDR.lz4
+  uploadId: 799174

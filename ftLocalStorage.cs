@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:aa761a3313e430f4972e522dc033aae256a9dd90ea6a1dee9499b7105f484e74
-size 370
+using UnityEngine;
+using System.Collections.Generic;
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
+public class ftLocalStorage : ScriptableObject
+{
+    [SerializeField]
+    public List<string> modifiedAssetPathList = new List<string>(); // marks model as processed
+
+    [SerializeField]
+    public List<int> modifiedAssetPaddingHash = new List<int>();
+}
+

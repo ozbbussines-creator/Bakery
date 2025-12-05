@@ -1,9 +1,16 @@
 fileFormatVersion: 2
-guid: ccabfc030abe49946a4d7b12c6789536
+guid: b7246420d3e29ae429fc3827a1abc1e6
+timeCreated: 1533755707
+licenseType: Store
 ShaderImporter:
-  externalObjects: {}
   defaultTextures: []
-  nonModifiableTextures: []
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Bakery/ftRGBM2Half.shader
+  uploadId: 799174

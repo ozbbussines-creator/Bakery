@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: 0cd6d6ea0317e1c47b14909edb980bb9
+guid: fad0196ede3a41749af057ec68f43124
+timeCreated: 1531334118
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/NormalsFittingTexture_dds
+  uploadId: 799174

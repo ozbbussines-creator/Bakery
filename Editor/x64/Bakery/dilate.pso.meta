@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: 2948e9dc6384bd84093214a273f4ff6b
+guid: e5bdfd4e6f60ffb438e29f5ce906e4c0
+timeCreated: 1529751953
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/dilate.pso
+  uploadId: 799174

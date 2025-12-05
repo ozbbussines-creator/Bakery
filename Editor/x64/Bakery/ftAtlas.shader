@@ -1,3 +1,46 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:578e4cf3eaac2c3c5e8a14ac8b413ec93494a69b03ffe762c3cc2c890d9adb1b
-size 793
+﻿Shader "Hidden/ftAtlas"
+{
+	Properties
+	{
+	}
+	SubShader
+	{
+		Tags { "RenderType"="Opaque" }
+		LOD 100
+
+		Pass
+		{
+            Blend One One
+            ZWrite Off
+            ZTest Always
+            Cull Off
+
+			CGPROGRAM
+			#pragma vertex vert
+			#pragma fragment frag
+
+			#include "UnityCG.cginc"
+
+			float isSelected;
+
+			struct v2f
+			{
+				float4 vertex : SV_POSITION;
+			};
+
+			v2f vert (appdata_full v)
+			{
+				v2f o;
+                float2 uv1 = v.texcoord1 * unity_LightmapST.xy + unity_LightmapST.zw;
+				o.vertex = float4(uv1.xy*2-1, 0.5, 1);
+				return o;
+			}
+
+			fixed4 frag (v2f i) : SV_Target
+			{
+                return isSelected > 0.0f ? (isSelected > 1.5f ? float4(0,0,1,1) : float4(1,1,0,1)) : 0.1;
+			}
+			ENDCG
+		}
+	}
+}

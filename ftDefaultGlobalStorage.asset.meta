@@ -1,8 +1,16 @@
 fileFormatVersion: 2
-guid: 4e370625ad3bd314586eaf4d21084c59
+guid: f4b25053f1346cc4e8e1208e07ec0360
+timeCreated: 1536946135
+licenseType: Store
 NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
+  mainObjectFileID: -1
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Bakery/ftDefaultGlobalStorage.asset
+  uploadId: 799174

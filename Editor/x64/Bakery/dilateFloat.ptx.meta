@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: 79837e0c837e8e847993b638710d6b93
+guid: a3321abd087b2e44e8f1852158e8d948
+timeCreated: 1526161016
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/dilateFloat.ptx
+  uploadId: 799174

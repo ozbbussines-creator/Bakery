@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0c0f190e4b6337fd6a2b9b779422a2792bad913ae441ff5689605b64ab300900
-size 754
+{
+    "name": "BakeryEditorAssembly",
+    "rootNamespace": "",
+    "references": [
+        "BakeryRuntimeAssembly",
+        "BakeryAPV"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.core",
+            "expression": "17.0.3",
+            "define": "CORE_RP_1703"
+        },
+        {
+            "name": "com.unity.collections",
+            "expression": "2.5.1",
+            "define": "NATIVE_ARRAYS"
+        }
+    ],
+    "noEngineReferences": false
+}

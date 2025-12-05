@@ -1,9 +1,16 @@
 fileFormatVersion: 2
-guid: 133f5d60482da9a45a521f392a74e7ac
+guid: 53d71be01129e38489027706eb676fde
+timeCreated: 1757259749
+licenseType: Store
 ShaderImporter:
-  externalObjects: {}
   defaultTextures: []
-  nonModifiableTextures: []
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Bakery/ftLightFilter.shader
+  uploadId: 799174

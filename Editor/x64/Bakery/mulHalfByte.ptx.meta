@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: 0b35a8a77c0dd4c4193f5fe65841e873
+guid: d83426084209bab47bfdba17f46666ba
+timeCreated: 1529763005
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/mulHalfByte.ptx
+  uploadId: 799174

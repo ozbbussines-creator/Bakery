@@ -1,9 +1,16 @@
 fileFormatVersion: 2
-guid: d734879209bd0fa43a19c3ca62aa49fe
+guid: 2ad53c3d60baf17489980f3b010d040e
+timeCreated: 1538413381
+licenseType: Store
 ShaderImporter:
-  externalObjects: {}
   defaultTextures: []
-  nonModifiableTextures: []
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Bakery/shader/BakeryStandardSpecular.shader
+  uploadId: 799174

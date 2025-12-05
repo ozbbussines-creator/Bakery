@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: 49a6f2639ffc3c94eb0f99aa8a3aa99f
+guid: b16a7caeaf3f06547a1bff9a9c998b48
+timeCreated: 1605466142
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Editor/x64/Bakery/hwtestdata/uvpos_tinyscene_LM0.lz4
+  uploadId: 799174

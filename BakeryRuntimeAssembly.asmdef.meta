@@ -1,7 +1,15 @@
 fileFormatVersion: 2
-guid: 949ff907d0cc29146bbf98c2045292c4
-AssemblyDefinitionImporter:
-  externalObjects: {}
+guid: a1653399f63795746b1857281d1e400d
+timeCreated: 1551814785
+licenseType: Store
+DefaultImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 122218
+  packageName: Bakery - GPU Lightmapper
+  packageVersion: 1.97
+  assetPath: Assets/Bakery/BakeryRuntimeAssembly.asmdef
+  uploadId: 799174
